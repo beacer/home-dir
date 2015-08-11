@@ -8,7 +8,6 @@ fi
 # User specific aliases and functions
 alias ls='ls -G'
 alias ll='ls -l'
-alias tftpd='in.tftpd'
 alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
