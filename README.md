@@ -1,2 +1,2 @@
 # home-dir
-home dir configurations, including vim, bash, tmux and others.
+home dir, including vim, bash, tmux configurations and some scripts.
