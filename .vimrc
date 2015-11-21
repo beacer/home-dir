@@ -181,3 +181,6 @@ cnoremap <expr> %% getcmdtype( ) == ':' ? expand('%:h').'/' : '%%'
 
 " enable matchit.vim (build-in plugin) to use '%' match XML tags
 runtime macros/matchit.vim
+
+" markdown (*.md) file
+autocmd BufRead,BufNewFile *.md set filetype=markdown
