@@ -103,6 +103,12 @@ set shiftwidth=4
 "set noincsearch
 set expandtab
 set softtabstop=4
+if filereadable("./net/core/dev.c")
+set tabstop=8
+set shiftwidth=8
+set noexpandtab
+set softtabstop=0
+endif
 
 " conf for tabs
 let mapleader = ','
