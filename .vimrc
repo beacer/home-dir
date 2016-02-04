@@ -107,7 +107,7 @@ if filereadable("./net/core/dev.c")
 set tabstop=8
 set shiftwidth=8
 set noexpandtab
-set softtabstop=0
+set softtabstop=8
 endif
 
 " conf for tabs
