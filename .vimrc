@@ -190,3 +190,10 @@ runtime macros/matchit.vim
 
 " markdown (*.md) file
 autocmd BufRead,BufNewFile *.md set filetype=markdown
+
+" hilight
+highlight CursorLine term=NONE cterm=NONE ctermbg=darkgrey
+highlight LineNr ctermbg=darkgrey
+set cursorline
+highlight Visual term=NONE cterm=NONE ctermbg=darkgrey
+highlight Search term=reverse ctermfg=0 ctermbg=grey guibg=Yellow
