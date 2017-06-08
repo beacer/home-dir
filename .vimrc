@@ -146,8 +146,8 @@ let Tlist_Show_One_File=1
 let NERDTreeQuitOnOpen=1
 let NERDTreeWinPos="right"
 
-set completeopt=longest,menu
-"set completeopt=preview
+"set completeopt=longest,menu
+set completeopt=preview
 
 " lookup file settings
 let g:LookupFile_MinPatLength = 2
@@ -193,7 +193,10 @@ autocmd BufRead,BufNewFile *.md set filetype=markdown
 
 " hilight
 highlight CursorLine term=NONE cterm=NONE ctermbg=darkgrey
-highlight LineNr ctermbg=darkgrey
-set cursorline
+"highlight LineNr ctermbg=darkgrey
+highlight LineNr ctermfg=darkgrey ctermbg=darkgrey
+"set cursorline
 highlight Visual term=NONE cterm=NONE ctermbg=darkgrey
 highlight Search term=reverse ctermfg=0 ctermbg=grey guibg=Yellow
+
+let g:ctrlp_max_files=0
