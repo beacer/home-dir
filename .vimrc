@@ -98,12 +98,12 @@ endif
 " lchen
 set nobackup
 set nohls
-set tabstop=4
-set shiftwidth=4
+"set tabstop=4
+"set shiftwidth=4
 "set noincsearch
-set expandtab
-set softtabstop=4
-if filereadable("./net/core/dev.c")
+"set expandtab
+"set softtabstop=4
+"if filereadable("./net/core/dev.c")
 set tabstop=8
 set shiftwidth=8
 set noexpandtab
@@ -192,10 +192,12 @@ runtime macros/matchit.vim
 autocmd BufRead,BufNewFile *.md set filetype=markdown
 
 " hilight
-highlight CursorLine term=NONE cterm=NONE ctermbg=darkgrey
+"highlight CursorLine term=NONE cterm=NONE ctermbg=darkgrey
 "highlight LineNr ctermbg=darkgrey
 highlight LineNr ctermfg=darkgrey ctermbg=darkgrey
 "set cursorline
+"au BufEnter * setlocal cursorline
+"au BufLeave * setlocal nocursorline
 highlight Visual term=NONE cterm=NONE ctermbg=darkgrey
 highlight Search term=reverse ctermfg=0 ctermbg=grey guibg=Yellow
 
