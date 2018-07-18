@@ -1,6 +1,7 @@
 #!/bin/sh
 
-rm -f tags ; ctags --links=no -R ./
+#rm -f tags ; ctags --links=no -R ./
+rm -f tags ; ctags -R ./
 cscope -Rbq
 
 # generate tag file for lookupfile plugin
